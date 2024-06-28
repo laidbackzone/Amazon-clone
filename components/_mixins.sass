@@ -1,0 +1,27 @@
+@mixin flexbox($color, $direccion:row, $justify:center, $align:center)
+    display: flex
+    background-color: $color
+    flex-direction: $direccion
+    justify-content: $justify
+    align-items: $align
+    
+@mixin div-link($margin)
+    font-family: Amazon Light
+    color: rgb(90,163,176)
+    margin-top: $margin
+
+@mixin hoverline()
+    cursor: pointer
+    text-decoration: underline white solid 1px
+
+@mixin hoverpointer()
+    cursor: pointer
+
+@mixin hoverorange()
+    cursor: pointer
+    color: orange
+
+@mixin hoverborder()
+    cursor: pointer
+    border: 1px solid white
+    padding: 9px
